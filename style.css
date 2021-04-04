@@ -1,0 +1,231 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+html {
+	margin: 0;
+	padding: 5px;
+}
+
+body { 
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 2;
+	color: #2A2623; 
+}
+
+header h1 {
+	font-family: 'Merienda', cursive;
+	color: #FFD203;
+	text-transform: uppercase;
+	background-color: rgb(65, 63, 65);
+	font-weight: 800;
+	font-size: 2em;
+	letter-spacing: 1px;
+	line-height: 2em;
+	display: block;
+	text-align: center;
+	justify-content: space-between;
+	letter-spacing: 10px;
+	width: 100%;
+	margin: 0;
+}
+
+h2, h3 { 
+	font-family: 'Oregano', cursive;
+	font-size: 1.2em;
+	letter-spacing: 1px; 
+	background-color: #FFD203;
+	color: rgb(65, 63, 65);
+	justify-content: space-between;
+	text-align: center;
+}
+
+h3.archives {
+	margin: auto;
+	width: 100px;
+}
+
+p { 
+	text-align: justify;
+}
+
+a:link { 
+	font-family: Papyrus;
+	color: rgb(207, 136, 5);
+	text-decoration: none;
+}
+
+a:visited { 
+	color: rgb(202, 183, 148);
+	text-shadow: 1px 1px 2px rgb(24, 21, 21), 0 0 3em rgb(34, 3, 3), 0 0 0.2em rgb(32, 1, 1);
+}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: rgb(65, 63, 65);
+}
+
+abbr {
+	font-family: Papyrus;
+	text-decoration: underline dotted;
+}
+
+aside {
+	background-image: url(sand.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+aside ul {
+	padding-inline-start: 0;
+}
+
+aside li {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+
+.summary p:last-child {
+	font-family: 'Merienda One', cursive;
+	text-align: center;
+	border: 2px solid grey;
+}
+
+.preamble h3 {
+	background-color: #FFD203;
+	color: rgb(65, 63, 65);
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+.preamble {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 5px;
+	display: block;
+	background-clip: inherit;
+	background-image: url(path.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 0 10px 0;
+}
+
+.preamble p {
+	float: right;
+	width: 50%;
+	color: white;
+	display: block;
+	margin: 5px;
+	text-align: right;
+}
+
+.explanation {
+	clear: both;
+}
+
+.participation h3 {
+	background-color: #FFD203;
+	color: rgb(65, 63, 65);
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+.participation {
+	float: right;
+	width: 100%;
+	position: relative;
+	margin: 5px;
+	display: block;
+	background-clip: inherit;
+	background-image: url(stones.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 0 10px 0;
+}
+
+.participation p {
+	float: left;
+	width: 50%;
+	display: block;
+	margin: 5px;
+	text-align: left;
+}
+
+.participation a {
+	color: #FFD203;
+	text-shadow: 1px 1px 2px rgb(24, 21, 21), 0 0 3em rgb(34, 3, 3), 0 0 0.2em rgb(32, 1, 1);
+}
+
+.benefits {
+	clear: both;
+}
+
+.requirements h3 {
+	background-color: #FFD203;
+	color: rgb(65, 63, 65);
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+.requirements p:last-child {
+	border: 2px solid grey;
+	text-align: center;
+	display: block;
+	padding: 10px 50px;
+	background-color: rgb(252, 240, 220);
+}
+
+.sidebar h3 {	
+	background-color: rgb(65, 63, 65);
+	color: #FFD203;
+	text-align: center;
+	padding: 5px;
+}
+
+.sidebar a {
+	color: #FFD203;
+	text-shadow: 1px 1px 2px rgb(24, 21, 21), 0 0 3em rgb(34, 3, 3), 0 0 0.2em rgb(32, 1, 1);
+}
+
+.design-selection h3 {
+	text-align: left;
+	padding: 5px;
+	float: left;
+	display: inline;
+}
+
+.design-selection li {
+	clear: both;
+	padding-left: 5px;
+	text-align: left;
+}
+
+.zen-resources h3 {
+	text-align: right;
+	padding: 5px;
+	display: inline;
+	float: right;
+}
+
+.zen-resources li {
+	clear: both;
+	padding-right: 5px;
+	text-align: right;
+}
+
+footer {
+	text-align: center;
+	display: block;
+	border: 2px solid grey;
+	background-color: rgb(252, 240, 220);
+	justify-content: space-between;
+	word-spacing: 30px;
+}
